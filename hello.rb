@@ -2,6 +2,7 @@ require "active_support/all"
 require "awesome_print"
 require "pry-byebug"
 require "date"
+require "http"
 pp "hello, world!"
 
 #require "./goodbye.rb"
@@ -35,5 +36,4 @@ ap x
 =end
 pp "Hello there! What's your name?"
 name = gets.chomp
-
 pp "Hi " + name + "!"
