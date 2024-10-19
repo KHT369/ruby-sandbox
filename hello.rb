@@ -6,7 +6,7 @@ pp "hello, world!"
 
 #require "./goodbye.rb"
 
-require "date"
+=begin require "date"
 
 x = Date.today
 
@@ -32,3 +32,8 @@ ap x
 11
 6
 29
+=end
+pp "Hello there! What's your name?"
+name = gets.chomp
+
+pp "Hi " + name + "!"
